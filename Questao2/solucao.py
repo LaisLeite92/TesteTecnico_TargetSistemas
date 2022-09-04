@@ -8,9 +8,8 @@ while vfinal < num_infor:
   soma = seq_fibonacci[cont1] + seq_fibonacci[cont2]
   vfinal = soma
   seq_fibonacci.append(soma)
-  cont1 = cont1 + 1
-  cont2 = cont2 + 1
-print('Resultado: ')
+  cont1 += 1
+  cont2 += 1
 if vfinal == num_infor:
   print(f'O valor {num_infor} foi encontrado na sequência.')
 else:
